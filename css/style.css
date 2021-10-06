@@ -40,7 +40,7 @@ body {
 .nav_section > img {
   width: 178px;
   height: 70.66px;
-  margin-top: 24px;
+  margin-top: 17px;
   margin-left: 16px;
 }
 
@@ -120,10 +120,22 @@ select {
   width: 240px;
   padding: 6px 10px;
   margin: 5px 0;
-  display: inline-block;
   background: #ecf0f3;
   border-radius: 10px;
   border-color: #ecf0f3;
+  border: none;
+}
+
+input[type="text"].mobileno::-webkit-input-placeholder {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 151.5%;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: #c4c4c4;
 }
 
 input[type="submit"] {
@@ -131,25 +143,86 @@ input[type="submit"] {
   background: #1877f2;
   border-radius: 50px;
   color: white;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
   padding: 10px;
   margin: 10px 0;
   border: none;
   cursor: pointer;
 }
 
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
 .mobile_text {
   position: absolute;
-
-  top: 70%;
-  left: 52%;
-  transform: translate(-70%, -52%);
-
+  top: 550px;
+  left: 85px;
   font-style: italic;
   font-weight: bold;
   font-size: 18px;
   line-height: 22px;
   color: #ecf0f3;
-  display: flex;
-  /* align-items: center; */
   text-align: center;
+}
+
+.connect_inner_container {
+  height: 378px;
+  background: #e5265b;
+  border-radius: 0px 0px 50px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.connect_container_image {
+  position: absolute;
+}
+.connect_label_container {
+  height: 389px;
+  background: #ecf0f3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.connect_label_number {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: #130f26;
+}
+.connect_label_text {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #130f26;
+}
+.conlusion_container {
+  height: 400px;
+  background: #1877f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.conlusion_text {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 40px;
+  color: #ecf0f3;
+  /* margin-top: 130px; */
 }
