@@ -171,7 +171,18 @@ button:focus {
   color: #ecf0f3;
   text-align: center;
 }
-
+.connect_container {
+  background: #ecf0f3;
+}
+.post_container {
+  background: #ecf0f3;
+}
+.earn_container {
+  background: #ecf0f3;
+}
+.invest_container {
+  background: #ecf0f3;
+}
 .connect_inner_container {
   height: 378px;
   background: #e5265b;
@@ -179,6 +190,13 @@ button:focus {
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 20;
+}
+
+.connect_main_container {
+  height: 378px;
+  background: #ecf0f3;
+  position: absolute;
 }
 
 .connect_container_image {
@@ -257,6 +275,19 @@ button:focus {
   padding: 25px;
 }
 
+.earn_image1 {
+  align-self: flex-start;
+}
+.earn_image2 {
+  align-self: center;
+}
+.earn_image3 {
+  align-self: flex-start;
+}
+.earn_image4 {
+  align-self: flex-end;
+}
+
 button[type="button"] {
   width: 214px;
   background: black;
@@ -272,8 +303,8 @@ button[type="button"] {
   cursor: pointer;
   align-self: center;
   outline: none;
-  /* margin-left: 16px;
-  margin-top: 24px; */
+  /* margin-left: 16px; */
+  margin-top: 50px;
 }
 
 .invest_inner_container {
@@ -283,17 +314,4 @@ button[type="button"] {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.earn_image1 {
-  align-self: flex-start;
-}
-.earn_image2 {
-  align-self: center;
-}
-.earn_image3 {
-  align-self: flex-start;
-}
-.earn_image4 {
-  align-self: flex-end;
 }
