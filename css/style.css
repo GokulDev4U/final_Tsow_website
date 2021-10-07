@@ -251,8 +251,10 @@ button:focus {
   background: #fdd015;
   border-radius: 0px 0px 50px 50px;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 25px;
 }
 
 button[type="button"] {
@@ -268,9 +270,9 @@ button[type="button"] {
   margin: 10px 0;
   border: none;
   cursor: pointer;
-  align-self: flex-start;
-  margin-left: 16px;
-  margin-top: 24px;
+  align-self: center;
+  /* margin-left: 16px;
+  margin-top: 24px; */
 }
 
 .invest_inner_container {
@@ -280,4 +282,17 @@ button[type="button"] {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.earn_image1 {
+  align-self: flex-start;
+}
+.earn_image2 {
+  align-self: center;
+}
+.earn_image3 {
+  align-self: flex-start;
+}
+.earn_image4 {
+  align-self: flex-end;
 }
