@@ -98,11 +98,11 @@ body {
   background: #ffffff;
   border-radius: 40px;
 }
-.login_container .signup_container .signup_inner_container {
+.signup_inner_container {
   margin-left: 34px;
   margin-top: 24px;
 }
-.login_container .signup_container .signup_inner_container .coin_title {
+.coin_title {
   font-weight: 800;
   font-size: 18px;
   line-height: 22px;
@@ -314,4 +314,20 @@ button[type="button"] {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.main_signup {
+  height: 300px;
+  background: #1877f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup_container1 {
+  width: 357px;
+  height: 192px;
+  background: #ffffff;
+  border-radius: 40px;
 }
