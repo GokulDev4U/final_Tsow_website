@@ -270,6 +270,7 @@ button[type="button"] {
   cursor: pointer;
   align-self: flex-start;
   margin-left: 16px;
+  margin-top: 24px;
 }
 
 .invest_inner_container {
