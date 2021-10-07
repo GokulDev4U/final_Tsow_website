@@ -218,11 +218,38 @@ button:focus {
   justify-content: center;
 }
 
-.conlusion_text {
+.conlusion_text_white {
   font-style: normal;
   font-weight: 800;
   font-size: 40px;
   line-height: 40px;
   color: #ecf0f3;
   /* margin-top: 130px; */
+}
+
+.post_inner_container {
+  height: 599px;
+  background: #3f2d3b;
+  border-radius: 0px 0px 50px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.conlusion_text_yellow {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 40px;
+  color: #fdd015;
+  /* margin-top: 130px; */
+}
+
+.earn_inner_container {
+  height: 461px;
+  background: #fdd015;
+  border-radius: 0px 0px 50px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
