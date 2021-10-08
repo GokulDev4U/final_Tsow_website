@@ -165,9 +165,9 @@ button:focus {
   /* top: 550px;
   left: 80px; */
   position: absolute;
-  top: 72%;
+  top: 74%;
   left: 58%;
-  transform: translate(-72%, -58%);
+  transform: translate(-74%, -58%);
   font-style: italic;
   font-weight: bold;
   font-size: 18px;
