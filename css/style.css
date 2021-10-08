@@ -26,6 +26,7 @@ body {
   flex-direction: column;
   justify-content: center;
   overflow-x: hidden;
+  background: linear-gradient(180deg, #0f0f0f, #1877f2);
 }
 
 .nav_section {
@@ -45,7 +46,7 @@ body {
 }
 
 .top_section {
-  height: 600.07px;
+  /* height: 600.07px; */
   margin-top: 90px;
   background: linear-gradient(180deg, #0f0f0f, #1877f2);
 }
@@ -64,13 +65,19 @@ body {
 .heading > p:last-child.heading_text_yellow {
   color: #f6ca14;
 }
-.top_section > img {
+/* .top_section > img {
   width: 100%;
+} */
+.login_main_container {
+  background-color: #1877f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .login_container {
   background-color: #1877f2;
-  align-self: center;
+  /* align-self: center; */
   position: relative;
 }
 /* .login_container .mobile {
@@ -161,13 +168,13 @@ button:focus {
 }
 
 .mobile_text {
-  /* position: absolute; */
-  /* top: 550px;
-  left: 80px; */
   position: absolute;
+  top: 550px;
+  left: 80px;
+  /* position: absolute;
   top: 74%;
   left: 58%;
-  transform: translate(-74%, -58%);
+  transform: translate(-74%, -58%); */
   font-style: italic;
   font-weight: bold;
   font-size: 18px;
@@ -346,4 +353,12 @@ button[type="button"] {
 .alert {
   margin-top: 90px;
   margin-bottom: 90px;
+}
+
+.hand {
+  width: 100%;
+  height: auto;
+}
+.hand-container {
+  align-self: center;
 }
