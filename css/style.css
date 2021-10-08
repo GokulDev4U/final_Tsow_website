@@ -380,14 +380,14 @@ button[type="button"] {
   color: #ecf0f3;
   font-family: Montserrat;
   font-weight: 600;
-  padding: 5px;
+  /* padding: 5px; */
   font-size: 12px;
   line-height: 40px;
   border: none;
   cursor: pointer;
   outline: none;
   height: 30px;
-  width: 140px;
+  width: 130px;
   display: flex;
   align-items: center;
   justify-content: center;
