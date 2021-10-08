@@ -384,7 +384,7 @@ button[type="button"] {
   border: none;
   cursor: pointer;
   outline: none;
-  padding: 5px 5px;
+  padding: 0px 5px;
   white-space: nowrap;
   /* text-align: center; */
   display: flex;
