@@ -46,9 +46,16 @@ body {
 }
 
 .top_section {
-  /* height: 600.07px; */
+  /* background: linear-gradient(180deg, #0f0f0f, #1877f2); */
   margin-top: 90px;
-  background: linear-gradient(180deg, #0f0f0f, #1877f2);
+  background: linear-gradient(180deg, #0f0f0f, #0f0f0f, #1877f2, #1877f2);
+  /* background: linear-gradient(
+    180deg,
+    #0f0f0f 17.36%,
+    #1877f2 27.79%,
+    #1877f2 87.36%,
+    #3f2d3b 80.9%
+  ); */
 }
 .heading {
   padding-top: 60px;
@@ -65,9 +72,12 @@ body {
 .heading > p:last-child.heading_text_yellow {
   color: #f6ca14;
 }
-/* .top_section > img {
+
+.hand {
   width: 100%;
-} */
+  height: auto;
+}
+
 .login_main_container {
   background-color: #1877f2;
   display: flex;
@@ -353,12 +363,4 @@ button[type="button"] {
 .alert {
   margin-top: 90px;
   margin-bottom: 90px;
-}
-
-.hand {
-  width: 100%;
-  height: auto;
-}
-.hand-container {
-  align-self: center;
 }
