@@ -353,6 +353,7 @@ button[type="button"] {
 
 .bottom_section {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   background: linear-gradient(180deg, #1877f2 9.76%, #0b0b0b 67.96%);
@@ -361,6 +362,33 @@ button[type="button"] {
 }
 
 .alert {
-  margin-top: 90px;
+  margin-top: 140px;
   margin-bottom: 90px;
+}
+
+.play_store {
+  margin-right: 7px;
+}
+
+.additional_info_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.additional_info {
+  color: #ecf0f3;
+  margin-right: 15px;
+}
+
+.copy_right_container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.copy_right {
+  color: #ecf0f3;
+  text-align: center;
+  font-size: 7px;
 }
