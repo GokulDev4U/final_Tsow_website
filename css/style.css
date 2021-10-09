@@ -206,7 +206,8 @@ button:focus {
 }
 .connect_inner_container {
   height: 378px;
-  background: #e5265b;
+  /* background: #e5265b; */
+  background: #a239ca;
   border-radius: 0px 0px 50px 50px;
   display: flex;
   align-items: center;
