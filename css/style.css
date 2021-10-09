@@ -212,7 +212,6 @@ button:focus {
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 20;
 }
 
 .connect_main_container {
@@ -288,7 +287,8 @@ button:focus {
 
 .earn_inner_container {
   height: 461px;
-  background: #fdd015;
+  /* background: #fdd015; */
+  background: #e7dfdd;
   border-radius: 0px 0px 50px 50px;
   display: flex;
   flex-direction: column;
@@ -424,4 +424,103 @@ button[type="button"] {
   color: #ecf0f3;
   text-align: center;
   font-size: 7px;
+}
+
+@media (min-width: 450px) {
+  .nav_section > img {
+    width: 367px;
+    height: 88.66px;
+    margin-top: 17px;
+    margin-left: 16px;
+  }
+  .heading {
+    padding-top: 60px;
+    padding-left: 117px;
+  }
+  .heading > p {
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 117px;
+  }
+
+  .connect_label_container {
+    height: 500px;
+    background: #ecf0f3;
+    display: flex;
+    flex: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  /* 1 */
+  .connect_container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .connect_inner_container {
+    height: 500px;
+    background: #a239ca;
+    border-radius: 0px 0px 0px 0px;
+    display: flex;
+    flex: 50%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* 2 */
+  .post_container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .post_inner_container {
+    height: 700px;
+    background: #3f2d3b;
+    border-radius: 0px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 50%;
+  }
+
+  /* 3 */
+  .earn_container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .earn_inner_container {
+    height: 500px;
+    background: #e7dfdd;
+    border-radius: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    flex: 50%;
+  }
+  /* 4 */
+  .invest_container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .invest_inner_container {
+    height: 700px;
+    background: #3f2d3b;
+    border-radius: 0px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 50%;
+  }
 }
