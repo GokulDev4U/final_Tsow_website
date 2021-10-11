@@ -206,24 +206,16 @@ button {
     display: none;
   }
 
-  .store {
+  .bottom_container {
     position: absolute;
-    left: 587px;
     top: 835px;
-    /* position: absolute;
-      left: 30%;
-      bottom: -10%;
-      transform: translate(-30%, -10%); */
+    display: flex;
+    align-self: center;
+  }
+
+  .store {
   }
   .footer-wrapper {
-    position: absolute;
-    top: 830px;
-    left: 987px;
-    /* right: 382px; */
-    /* position: absolute;
-      left: 55%;
-      bottom: -22%;
-      transform: translate(-55%, -22%); */
   }
 
   .footer-text {
