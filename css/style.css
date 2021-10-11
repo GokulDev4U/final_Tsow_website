@@ -98,13 +98,16 @@ body {
 .login_container .logo_container {
   position: absolute;
   top: 25%;
-  left: 40%;
-  transform: translate(-25%, -40%);
+  left: 37%;
+  transform: translate(-25%, -37%);
   display: flex;
   align-items: flex-start;
 }
 .login_container .logo_container .logo_white {
   margin-right: 5px;
+}
+.login_container .logo_container .trade_mark {
+  margin-top: 5px;
 }
 
 .login_container .signup_container {
