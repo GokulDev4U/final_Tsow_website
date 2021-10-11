@@ -433,10 +433,12 @@ button[type="button"] {
     margin-top: 17px;
     margin-left: 16px;
   }
+
   .heading {
     padding-top: 60px;
     padding-left: 117px;
   }
+
   .heading > p {
     font-weight: 800;
     font-size: 96px;
@@ -522,5 +524,14 @@ button[type="button"] {
     align-items: center;
     justify-content: center;
     flex: 50%;
+  }
+
+  /*  */
+  .conlusion_text_white .conlusion_text_yellow {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
   }
 }
