@@ -87,16 +87,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 800px;
 }
 
 .login_container {
   background-color: #1877f2;
-  /* align-self: center; */
   position: relative;
 }
-/* .login_container .mobile {
-  position: relative;
-} */
+
 .login_container .logo_container {
   position: absolute;
   top: 25%;
@@ -167,7 +165,7 @@ input[type="submit"] {
   color: white;
   font-family: Montserrat;
   font-weight: bold;
-  font-size: 10px;
+  font-size: 12px;
   line-height: 12px;
   padding: 10px;
   margin: 10px 0;
