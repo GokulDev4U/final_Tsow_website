@@ -46,7 +46,8 @@ body {
 }
 .nav_section > img {
   width: 190px;
-  height: 70.66px;
+  height: 60.66px;
+  margin-top: 7px;
 }
 
 .top_section {
@@ -138,6 +139,7 @@ body {
 input[type="text"],
 select {
   width: 280px;
+  height: 35px;
   padding: 6px 10px;
   margin: 5px 0;
   background: #ecf0f3;
