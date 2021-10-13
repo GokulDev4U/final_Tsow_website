@@ -4,7 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no ">
-    <title>TSOW</title>
+    <!-- <title>TSOW</title> -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style_pro.css"> -->
+    <title>Earn From Your Network</title>
+    <link rel = "icon" href ="./img/web_applogo.svg" type = "image/svg+xml">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -12,12 +19,16 @@
 </head>
 <body>
     <div class="container">
-        <img src="./img/logo_trademark.svg" alt="" class="logo_trademark">
+        <div class="nav">
+            <img src="./img/logo_trademark.svg" alt="" class="logo_trademark">
+            <a href='index.html'><img src="./img/Go_to_home.svg" alt="" class="go_to_home"></a>
+        </div>
+
 
         <p class="heading-text">Monetize Manage & Grow</p>
 
         <div class="card">
-            <div class="second_page_card1">
+            <div data-aos="flip-left" data-aos-duration="1000" class="second_page_card1">
                 <!-- <img src="./img/card1.svg" alt="" class="card1"> -->
                 <div class="traiangle_container">
                     <img src="./img/tsow_pro.svg" alt="" class="traiangle">
@@ -43,7 +54,7 @@
             </div>
 
 
-            <div class="second_page_card2">
+            <div data-aos="flip-right" data-aos-duration="1000" class="second_page_card2">
                 <!-- <img src="./img/card2.svg" alt="" class="card2"> -->
                 <div class="traiangle_container">
                     <img src="./img/Expert_pannel.svg" alt="" class="traiangle">
@@ -98,4 +109,8 @@
         </div>
     </div>
 </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </html>
