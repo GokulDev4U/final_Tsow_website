@@ -562,6 +562,10 @@ button[type="button"] {
     justify-content: center;
     flex: 50%;
   }
+
+  .conlusion_container {
+    text-align: center;
+  }
 }
 
 @media (min-width: 1350px) {
