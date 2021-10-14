@@ -469,7 +469,7 @@ button[type="button"] {
   font-size: 7px;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1350px) {
   .nav_section {
     height: 100px;
     background-color: #0f0f0f;
