@@ -52,7 +52,7 @@ body {
 
 .top_section {
   margin-top: 90px;
-  padding-top: 20px;
+  /* padding-top: 20px; */
   background: linear-gradient(180deg, #0f0f0f 70%, #1877f2);
   /* background: linear-gradient(180deg, #0f0f0f, #0f0f0f, #1877f2, #1877f2); */
 }
