@@ -239,8 +239,8 @@ button:focus {
 }
 .connect_inner_container {
   height: 378px;
-  /* background: #e5265b; */
-  background: #a239ca;
+  background: #e5265b;
+  /* background: #a239ca; */
   border-radius: 0px 0px 50px 50px;
   display: flex;
   align-items: center;
@@ -327,8 +327,8 @@ button:focus {
 
 .earn_inner_container {
   height: 461px;
-  /* background: #fdd015; */
-  background: #e7dfdd;
+  background: #fdd015;
+  /* background: #e7dfdd; */
   border-radius: 0px 0px 50px 50px;
   display: flex;
   flex-direction: column;
@@ -521,7 +521,7 @@ button[type="button"] {
   }
   .login_container {
     flex: 0.3;
-    margin-bottom: 190px;
+    margin-bottom: 180px;
     /* width: 347px;
     height: 700px; */
   }
@@ -545,8 +545,9 @@ button[type="button"] {
   }
 
   .connect_inner_container {
-    height: 500px;
-    background: #a239ca;
+    height: 700px;
+    /* background: #a239ca; */
+    background: #e5265b;
     border-radius: 0px 0px 0px 0px;
     display: flex;
     flex: 50%;
@@ -581,7 +582,8 @@ button[type="button"] {
 
   .earn_inner_container {
     height: 500px;
-    background: #e7dfdd;
+    /* background: #e7dfdd; */
+    background: #fdd015;
     border-radius: 0px 0px 0px 0px;
     display: flex;
     flex-direction: column;
