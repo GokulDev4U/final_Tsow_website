@@ -468,6 +468,15 @@ button[type="button"] {
   text-align: center;
   font-size: 7px;
 }
+@media (min-width: 900px) {
+  .heading > p {
+    font-weight: 800;
+    /* font-size: 76px;
+    line-height: 117px; */
+    font-size: 96px;
+    line-height: 117px;
+  }
+}
 
 @media (min-width: 1350px) {
   .nav_section {
@@ -495,6 +504,17 @@ button[type="button"] {
     margin-top: 100px;
     background: linear-gradient(180deg, #0f0f0f 50%, #1877f2);
     /* padding-top: 100px; */
+  }
+
+  .login_container .signup_container {
+    position: absolute;
+    top: 55%;
+    left: 54%;
+    transform: translate(-55%, -54%);
+    width: 457px;
+    height: 192px;
+    background: #ffffff;
+    border-radius: 40px;
   }
 
   .heading {
@@ -669,14 +689,28 @@ button[type="button"] {
 
   .login_container .signup_container {
     position: absolute;
-    top: 55%;
-    left: 54%;
-    transform: translate(-55%, -54%);
+    top: 50%;
+    left: 52%;
+    transform: translate(-50%, -52%);
     width: 457px;
-    height: 192px;
+    height: 269px;
     background: #ffffff;
     border-radius: 40px;
   }
+  .coin_title {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 15px;
+  }
+
+  .account_label {
+    font-size: 12px;
+    line-height: 15px;
+    /* margin-top: 12px; */
+    margin-bottom: 15px;
+  }
+
   .signup_container1 {
     flex: 50%;
     margin-right: 100px;
@@ -684,5 +718,34 @@ button[type="button"] {
   .alert_container {
     flex: 50%;
     margin-left: 100px;
+  }
+
+  input[type="submit"] {
+    width: 131px;
+    background: #1877f2;
+    border-radius: 50px;
+    color: white;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 12px;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+  }
+
+  input[type="text"],
+  select {
+    width: 336.89px;
+    height: 49.13px;
+    padding: 6px 10px;
+    margin: 5px 0;
+    background: #ecf0f3;
+    border-radius: 10px;
+    border-color: #ecf0f3;
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
   }
 }
