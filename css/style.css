@@ -255,6 +255,8 @@ button:focus {
 
 .connect_container_image {
   position: absolute;
+  width: 252px;
+  height: 259px;
 }
 .connect_label_container {
   height: 389px;
@@ -553,6 +555,12 @@ button[type="button"] {
     flex: 50%;
     align-items: center;
     justify-content: center;
+  }
+
+  .connect_container_image {
+    position: absolute;
+    width: 562px;
+    height: 568px;
   }
 
   /* 2 */
