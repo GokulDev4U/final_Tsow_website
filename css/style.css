@@ -713,6 +713,10 @@ button[type="button"] {
 
   .signup_container1 {
     flex: 50%;
+    width: 457px;
+    height: 269px;
+    background: #ffffff;
+    border-radius: 40px;
     margin-right: 100px;
   }
   .alert_container {
