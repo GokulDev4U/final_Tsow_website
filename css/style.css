@@ -52,7 +52,7 @@ body {
 
 .top_section {
   margin-top: 90px;
-  /* padding-top: 20px; */
+  padding-top: 20px;
   background: linear-gradient(180deg, #0f0f0f 70%, #1877f2);
   /* background: linear-gradient(180deg, #0f0f0f, #0f0f0f, #1877f2, #1877f2); */
 }
@@ -469,7 +469,7 @@ button[type="button"] {
 
 @media (min-width: 900px) {
   .nav_section {
-    /* height: 100px; */
+    height: 100px;
     background-color: #0f0f0f;
     overflow: hidden;
     position: fixed;
@@ -492,7 +492,7 @@ button[type="button"] {
   .top_section {
     margin-top: 100px;
     background: linear-gradient(180deg, #0f0f0f 50%, #1877f2);
-    padding-top: 100px;
+    /* padding-top: 100px; */
   }
 
   .heading {
