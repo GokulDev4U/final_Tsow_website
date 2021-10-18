@@ -85,6 +85,18 @@ a {
   height: auto;
   /* max-height: 673px; */
 }
+.connect_on_tsow,
+.whats_new,
+.Earn_from_tsow,
+.stock,
+.join_network {
+  width: 100%;
+  height: auto;
+  /* max-height: 673px; */
+}
+.img_container {
+  background-color: #1877f2;
+}
 .wrapper {
   padding-bottom: 80px;
 }
