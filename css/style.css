@@ -149,6 +149,7 @@ a {
   position: absolute;
   top: -60px;
   left: -70px;
+  line-height: 37px;
 }
 .join_text {
   font-weight: 800;
