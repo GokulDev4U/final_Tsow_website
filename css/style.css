@@ -105,6 +105,8 @@ a {
 }
 .thumbs_up {
   margin-bottom: -5px;
+  width: 360.71px;
+  height: 325.72px;
 }
 .join_network {
   max-width: 441.11px;
@@ -253,10 +255,12 @@ button:focus {
 .mobile {
   height: 649px;
 }
-
+/* .center .mobile_text .color {
+  text-align: center;
+} */
 .mobile_text {
   position: absolute;
-  top: 350px;
+  top: 370px;
   left: 37px;
   /* position: absolute;
   top: 74%;
@@ -269,9 +273,17 @@ button:focus {
   color: #ecf0f3;
   text-align: center;
 }
-/* .mobile_text > .color {
+.color {
+  position: absolute;
+  top: 350px;
+  left: 65px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
   color: #fdd015;
-} */
+}
 .connect_container {
   background: #ecf0f3;
 }
@@ -535,7 +547,9 @@ button[type="button"] {
   .connect_label_container {
     flex: 50%;
   }
-
+  .Earn_from_tsow {
+    margin-bottom: -60px;
+  }
   /* 1 */
   .connect_container {
     display: flex;
@@ -650,7 +664,9 @@ button[type="button"] {
     background: linear-gradient(180deg, #0f0f0f 50%, #1877f2);
     /* padding-top: 100px; */
   }
-
+  .Earn_from_tsow {
+    margin-bottom: -145px;
+  }
   .login_container .signup_container {
     position: absolute;
     /* top: 25%;
