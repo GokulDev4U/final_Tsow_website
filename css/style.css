@@ -136,7 +136,7 @@ a {
 }
 .user {
   position: absolute;
-  top: -160px;
+  top: -140px;
   left: -20px;
 }
 .join_text_container {
@@ -147,7 +147,7 @@ a {
 .join_text {
   font-weight: 800;
   font-size: 30px;
-  /* line-height: 37px; */
+  line-height: 37px;
   color: #ffffff;
   text-align: center;
 }
