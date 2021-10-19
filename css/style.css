@@ -105,14 +105,12 @@ a {
 }
 .thumbs_up {
   margin-bottom: -5px;
-  width: 360.71px;
+  width: 500.71px;
   height: 325.72px;
-  max-width: 494.71px;
-  max-height: 446.72px;
 }
 .join_network {
-  max-width: 441.11px;
-  max-height: 441.11px;
+  width: 272px;
+  height: 272px;
 }
 .join_container {
   background-color: #1877f2;
@@ -136,12 +134,16 @@ a {
 }
 .user {
   position: absolute;
-  top: -140px;
+  top: -100px;
   left: -20px;
   width: 37px;
   height: 28px;
   max-width: 60px;
   max-height: 45.41px;
+}
+.thumbs_container {
+  margin-top: 40px;
+  margin-left: 25px;
 }
 .join_text_container {
   position: absolute;
@@ -492,6 +494,7 @@ button[type="button"] {
   border-top-left-radius: 25px; */
   border-radius: 40px 0px 40px 40px;
   padding-top: 5px;
+  margin-left: 60px;
 }
 
 .bottom_section {
@@ -700,11 +703,11 @@ button[type="button"] {
   .Earn_from_tsow {
     margin-bottom: -145px;
   }
-  .login_container .signup_container {
-    position: absolute;
-    /* top: 25%;
-    left: 25%;
-    transform: translate(-25%, -25%); */
+  .login_container > .signup_container {
+    /* position: absolute; */
+    /* top: -15%;
+    left: -15%;
+    transform: translate(-15%, -5%); */
     width: 457px;
     height: 192px;
     background: #ffffff;
@@ -739,7 +742,8 @@ button[type="button"] {
   }
   .mobile_text {
     position: absolute;
-    top: 680px;
+    /* top: 680px; */
+    top: 480px;
     left: 77px;
     /* position: absolute;
     top: 74%;
@@ -751,6 +755,17 @@ button[type="button"] {
     line-height: 22px;
     color: #ecf0f3;
     text-align: center;
+  }
+  .color {
+    position: absolute;
+    top: 460px;
+    left: 97px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #fdd015;
   }
   .hand_container {
     flex: 0.95;
@@ -879,13 +894,14 @@ button[type="button"] {
     justify-content: space-between;
     align-items: center;
     flex: 1;
+    margin-bottom: 50px;
   }
 
   .login_container .signup_container {
-    position: absolute;
+    /* position: absolute;
     top: 50%;
     left: 52%;
-    transform: translate(-50%, -52%);
+    transform: translate(-50%, -52%); */
     width: 457px;
     height: 269px;
     background: #ffffff;
@@ -904,14 +920,17 @@ button[type="button"] {
     /* margin-top: 12px; */
     margin-bottom: 15px;
   }
-
-  .signup_container1 {
+  .thumbs_container {
     flex: 50%;
+  }
+  .signup_container1 {
     width: 457px;
     height: 269px;
     background: #ffffff;
-    border-radius: 40px;
-    margin-right: 100px;
+    /* border-radius: 40px; */
+    border-radius: 40px 0px 40px 40px;
+    /* margin-right: 100px; */
+    margin-right: 80px;
   }
   .alert_container {
     flex: 50%;
@@ -945,5 +964,11 @@ button[type="button"] {
     border: none;
     margin-bottom: 20px;
     margin-top: 20px;
+  }
+
+  .thumbs_up {
+    margin-bottom: -5px;
+    width: 554.71px;
+    height: 446.72px;
   }
 }
