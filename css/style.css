@@ -107,6 +107,8 @@ a {
   margin-bottom: -5px;
   width: 360.71px;
   height: 325.72px;
+  max-width: 494.71px;
+  max-height: 446.72px;
 }
 .join_network {
   max-width: 441.11px;
@@ -117,10 +119,37 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 .img_container {
   background-color: #1877f2;
+}
+/* .circle {
+} */
+
+.join_wrapper {
+  position: absolute;
+}
+.circle {
+  position: absolute;
+}
+.user {
+  position: absolute;
+  top: -160px;
+  left: -20px;
+}
+.join_text_container {
+  position: absolute;
+  top: -40px;
+  left: -70px;
+}
+.join_text {
+  font-weight: 800;
+  font-size: 30px;
+  /* line-height: 37px; */
+  color: #ffffff;
+  text-align: center;
 }
 
 .wrapper {
