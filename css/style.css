@@ -94,6 +94,14 @@ a {
   height: auto;
   /* max-height: 673px; */
 }
+
+.think {
+  position: absolute;
+  bottom: 23px;
+  right: 10px;
+  width: 209px;
+  height: 147px;
+}
 .whats_new {
   margin-bottom: -10px;
 }
@@ -971,5 +979,12 @@ button[type="button"] {
     margin-bottom: -5px;
     width: 554.71px;
     height: 446.72px;
+  }
+  .think {
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+    width: 321px;
+    height: 205px;
   }
 }
