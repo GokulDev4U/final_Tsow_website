@@ -977,7 +977,8 @@ button[type="button"] {
 
   .thumbs_up {
     margin-bottom: -5px;
-    width: 554.71px;
+    /* width: 554.71px; */
+    width: 620.71px;
     height: 446.72px;
   }
   .think {
@@ -989,7 +990,7 @@ button[type="button"] {
   }
   .connect_on_tsow {
     /* max-width: 1420px; */
-    /* max-height: 946px; */
+    max-height: 946px;
   }
   .whats_new {
     /* max-width: 991px; */
