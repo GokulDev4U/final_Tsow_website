@@ -527,7 +527,7 @@ button[type="button"] {
 .alert_container .go_to_pro {
   position: absolute;
   top: 70%;
-  left: 60%;
+  left: 55%;
   transform: translate(-70%, -60%);
   background: #1877f2;
   border-radius: 30px;
@@ -992,7 +992,7 @@ button[type="button"] {
     /* max-height: 946px; */
   }
   .whats_new {
-    max-width: 991px;
+    /* max-width: 991px; */
     /* max-height: 991px; */
   }
   .Earn_from_tsow {
