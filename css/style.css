@@ -55,7 +55,7 @@ a {
   overflow: hidden;
   position: fixed;
   top: 0;
-  /* width: 100%; */
+  width: 100%;
   align-self: center;
   max-width: 1920px;
   z-index: 100;
