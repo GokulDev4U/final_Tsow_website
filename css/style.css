@@ -125,7 +125,7 @@ a {
 }
 .Earn_from_tsow {
   /* margin-bottom: -39px; */
-  margin-bottom: -39px;
+  margin-bottom: -26px;
 }
 .stock {
   margin-bottom: -5px;
@@ -149,6 +149,7 @@ a {
 
 .img_container {
   background-color: #1877f2;
+  max-height: 1200px;
 }
 .img_container1 {
   display: flex;
@@ -462,7 +463,7 @@ button:focus {
   color: #130f26;
 }
 .conlusion_container {
-  height: 400px;
+  height: 350px;
   background: #1877f2;
   display: flex;
   flex-direction: column;
