@@ -38,7 +38,7 @@ body {
   justify-content: center;
   max-width: 1920px;
   align-self: center;
-  align-items: center;ś
+  align-items: center;
 } */
 
 input,
@@ -101,6 +101,7 @@ a {
   width: 100%;
   max-width: 1400px;
   align-self: center;
+  /* transform: rotate(-3deg); */
 }
 .whats_new,
 .Earn_from_tsow,
@@ -123,7 +124,7 @@ a {
   margin-bottom: -10px;
 }
 .Earn_from_tsow {
-  margin-bottom: -25px;
+  margin-bottom: -45px;
 }
 .stock {
   margin-bottom: -5px;
@@ -151,8 +152,59 @@ a {
 .img_container1 {
   display: flex;
   justify-content: center;
+  position: relative;
 }
-/* .circle {
+/* .cube {
+  animation: bounce 1s;
+  transform: translateY(0px);
+  animation-iteration-count: infinite;
+  position: absolute;
+  margin: 50px;
+  top: 5px;
+  left: 70px;
+  transform: rotate(45deg);
+  max-width: 200px;
+}
+.stairs {
+  animation: bounce 1s;
+  transform: translateY(0px);
+  animation-iteration-count: infinite;
+  position: absolute;
+  max-width: 500px;
+  right: 180px;
+  transform: rotate(25deg);
+  top: 280px;
+}
+@keyframes bounce {
+  0% {
+    top: 0;
+    -webkit-animation-timing-function: ease-in;
+  }
+  40% {
+  }
+  50% {
+    top: 140px;
+    height: 140px;
+    -webkit-animation-timing-function: ease-out;
+  }
+  55% {
+    top: 160px;
+    height: 120px;
+    -webkit-animation-timing-function: ease-in;
+  }
+  65% {
+    top: 120px;
+    height: 140px;
+    -webkit-animation-timing-function: ease-out;
+  }
+  95% {
+    top: 0;
+    -webkit-animation-timing-function: ease-in;
+  }
+  100% {
+    top: 0;
+    -webkit-animation-timing-function: ease-in;
+  }
 } */
 
 .join_wrapper {
@@ -614,7 +666,7 @@ button[type="button"] {
     flex: 50%;
   }
   .Earn_from_tsow {
-    margin-bottom: -100px;
+    margin-bottom: -55px;
   }
   /* 1 */
   .connect_container {
@@ -764,6 +816,8 @@ button[type="button"] {
     flex: 1;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
+    /* max-width: 1900px; */
     /* background-color: #1877f2; */
     /* background: linear-gradient(180deg, #0f0f0f 50%, #1877f2); */
   }
@@ -800,6 +854,8 @@ button[type="button"] {
   .hand_container {
     flex: 0.95;
     margin-top: -120px;
+    max-width: 1900px;
+    max-height: 1100px;
   }
   .login_main_container {
     /* height: 300px; */
