@@ -149,7 +149,7 @@ a {
 
 .img_container {
   background-color: #1877f2;
-  max-height: 1200px;
+  max-height: 1300px;
 }
 .img_container1 {
   display: flex;
@@ -655,6 +655,12 @@ button[type="button"] {
   font-size: 7px;
 }
 
+@media (min-width: 460px) {
+  .Earn_from_tsow {
+    /* margin-bottom: -39px; */
+    margin-bottom: -46px;
+  }
+}
 @media (min-width: 900px) {
   .heading > p {
     font-weight: 800;
@@ -1077,7 +1083,8 @@ button[type="button"] {
   }
   .Earn_from_tsow {
     max-width: 936px;
-    max-height: 783px;
+    /* max-height: 783px; */
+    max-height: 683px;
   }
   .stock {
     max-width: 915px;
