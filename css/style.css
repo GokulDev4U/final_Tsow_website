@@ -82,8 +82,11 @@ a {
 }
 .heading > p {
   font-weight: 800;
-  font-size: 40px;
-  line-height: 40px;
+  /* font-size: 40px; */
+  font-size: clamp(40px, 8vw, 80px);
+  /* line-height: 40px; */
+  /* line-height: clamp(40px, 12vw, 117px); */
+  line-height: clamp(40px, 6vw, 137px);
 }
 .heading > p:first-child.heading_text_white {
   color: #ecf0f3;
@@ -661,13 +664,14 @@ button[type="button"] {
     margin-bottom: -46px;
   }
 }
+
 @media (min-width: 900px) {
   .heading > p {
     font-weight: 800;
     /* font-size: 76px;
     line-height: 117px; */
-    font-size: 96px;
-    line-height: 117px;
+    /* font-size: 96px; */
+    /* line-height: 117px; */
   }
 
   .connect_label_container {
@@ -807,7 +811,7 @@ button[type="button"] {
   .heading {
     padding-top: 60px;
     padding-left: 80px;
-    /* padding-left: 117px; */
+    padding-left: 117px;
     /* flex: 0.7; */
   }
 
@@ -815,8 +819,8 @@ button[type="button"] {
     font-weight: 800;
     /* font-size: 76px;
     line-height: 117px; */
-    font-size: 96px;
-    line-height: 117px;
+    /* font-size: 96px; */
+    /* line-height: 117px; */
   }
 
   .wrapper {
